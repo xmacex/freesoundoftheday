@@ -13,13 +13,13 @@ Super thanks to everyone who is uploading sounds to Freesound. It's a treasuretr
 # Installation
 
 1. Install the lua library [lunajson](https://luarocks.org/modules/grafi/lunajson) with `sudo -H luarocks install lnajson`.
-1. Then install this as a systemd service with `sudo -s /home/dust/code/freesoundoftheday/freesoundoftheday.service /etc/systemd/system`.
+1. Then install this as a systemd service with `sudo -s /home/dust/code/freesoundoftheday/bin/freesoundoftheday.service /etc/systemd/system` followed by `sudo systemctl daemon-reload`.
 
 To see how it's doing, you can run `systemctl status freesoundoftheday`. Nevermind the timestamps, norns doesn't keep an accurate clock but you can always run `date` to see what the system clock is.
 
 # Implementation details
 
-I hope it works ;)
+I hope it works 🤣.
 
 The way this works is that this is a `systemd` service, and checks for new daily sound of the day when norns connects to network.
 

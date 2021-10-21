@@ -1,0 +1,10 @@
+[Unit]
+Description="Download Freesound.org random sound of the day."
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+Nice=-19
+User=we
+ExecStart=/home/we/dust/code/freesoundoftheday/bin/freesoundoftheday.lua
