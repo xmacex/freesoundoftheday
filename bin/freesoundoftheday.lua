@@ -5,7 +5,7 @@ lfs      = require 'lfs'
 lunajson = require 'lunajson'
 
 local API_ENDPOINT = "https://freesound.org/apiv2/"
-local API_TOKEN    = "your api token here"
+local API_TOKEN    = "7GpLkaFEHHF4m2zPzhmKyfZEgCP0G1l12VqVGKg7"
 local DIRECTORY    = "/home/we/dust/audio/freesoundoftheday/"
 
 local debug = true
