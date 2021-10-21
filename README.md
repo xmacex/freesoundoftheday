@@ -1,4 +1,4 @@
-# Freesound-the-day
+# Freesound-of-the-day
 
 An itsybitsy *norns* thing to have the random sound of the day from Freesound for inspiration in the samples folder.
 
