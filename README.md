@@ -2,9 +2,11 @@
 
 An itsybitsy *norns* thing to have the random sound of the day from Freesound for inspiration in the samples folder.
 
-![Freesound logo](https://freesound.org/media/images/logo.png)
+![Screenshot of an Freesound sample](screenshot.png)
 
-This will be a single sample in `dust/audio/freesoundoftheday`, and old ones are deleted. The file format is *id*-*name*-by-*author*.wav.
+This will be a single sample in `dust/audio/freesoundoftheday`, and old ones are deleted. The filename format is *id*-*name*-by-*username*.wav.
+
+![Freesound logo](https://freesound.org/media/images/logo.png)
 
 All sounds on Freesound are free to use, and if you use these samples in your works, [make sure to credit the author](https://freesound.org/help/faq/). It's good manners and respectful toward your cybernetic comrades :)
 
