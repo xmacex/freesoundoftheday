@@ -1,10 +1,12 @@
+#!/usr/bin/lua
+
 io       = require 'io'
 lfs      = require 'lfs'
 lunajson = require 'lunajson'
 
 local API_ENDPOINT = "https://freesound.org/apiv2/"
 local API_TOKEN    = "your api token here"
-local DIRECTORY    = "../../audio/freesoundoftheday/"
+local DIRECTORY    = "/home/we/dust/audio/freesoundoftheday/"
 
 local debug = true
 
