@@ -116,7 +116,7 @@ function render_to_wav(fromfile, tofile)
    if debug then print("🔊 Rendering file "..fromfile) end
    local wavfilename = tofile:gsub('.mp3$', '.wav')
    if debug then print("🔊 Rendering into "..wavfilename) end
-   io.popen("nice ffmpeg -n -loglevel warning -i "..fromfile.." "..wavfilename)
+   io.popen("nice ffmpeg -n -loglevel warning -i "..fromfile.." '"..wavfilename.."'")
 end
 
 ----------------- utilities -----------------
