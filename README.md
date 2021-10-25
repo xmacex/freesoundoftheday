@@ -2,6 +2,8 @@
 
 An itsybitsy *norns* thing to have the random sound of the day from Freesound for inspiration in the samples folder.
 
+![Photo of sound waveform on norns screen](actionshot.jpg)
+
 ![Screenshot of an Freesound sample](screenshot.png)
 
 This will be a single sample in `dust/audio/freesoundoftheday`, and old ones are deleted. The filename format is *id*-*name*-by-*username*.wav.
