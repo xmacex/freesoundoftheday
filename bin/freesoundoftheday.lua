@@ -103,7 +103,7 @@ function purge_all_except(directory, metadata)
       if filename ~= "." and filename ~= ".." then
          if filename ~= keeper then
             if debug then print("🗑 Binning "..filename) end
-            io.popen("rm "..directory.."/"..filename)
+            io.popen("rm "..directory.."/"..'"'..filename..'"')
          else
             if debug then print("♻ Would keep "..filename) end
          end
