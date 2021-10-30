@@ -16,9 +16,7 @@ Super thanks to everyone who is uploading sounds to Freesound. It's a treasuretr
 
 # Installation
 
-1. Install Lua package manager with `sudo -H apt install luarocks`.
-1. Install the lua library [lunajson](https://luarocks.org/modules/grafi/lunajson) with `sudo -H luarocks install lunajson`.
-1. Then install this as a systemd service with `sudo ln -s /home/dust/code/freesoundoftheday/lib/freesoundoftheday.service /etc/systemd/system` followed by `sudo systemctl daemon-reload`.
+1. Install this as a systemd service with `sudo ln -s /home/dust/code/freesoundoftheday/lib/freesoundoftheday.service /etc/systemd/system` followed by `sudo systemctl daemon-reload`.
 
 To see how it's doing, you can run `systemctl status freesoundoftheday`. Nevermind the timestamps, norns doesn't keep an accurate clock but you can always run `date` to see what the system clock is.
 

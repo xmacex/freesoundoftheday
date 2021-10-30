@@ -1,8 +1,10 @@
 #!/usr/bin/lua
 
-io       = require 'io'
-lfs      = require 'lfs'
-lunajson = require 'lunajson'
+local LUA_VERSION  = _VERSION:match("%d+%.%d+")
+package.path       = "share/lua/"..LUA_VERSION.."/?.lua;"..package.path
+local io           = require 'io'
+local lfs          = require 'lfs'
+local lunajson     = require 'lunajson'
 
 local API_ENDPOINT = "https://freesound.org/apiv2/"
 local API_TOKEN    = "7GpLkaFEHHF4m2zPzhmKyfZEgCP0G1l12VqVGKg7"
