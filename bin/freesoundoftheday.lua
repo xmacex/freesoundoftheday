@@ -39,7 +39,7 @@ function get_featured_sound_id(frontpage)
    log("🔐 Looking for sound id.")
    -- assumes it's the first player on the page. Sad.
    -- local pattern = 'class="sample_player_small" id="(%d+)"'
-   local pattern = 'Random sound of the day.*data.sound.id="(%d+)"'
+   local pattern = 'Random sound of the day.-data.sound.id="(%d+)"'
    local featured_sound_id = string.match(frontpage, pattern)
    log("🔑 Found sound id "..featured_sound_id)
    return featured_sound_id
