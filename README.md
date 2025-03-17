@@ -2,7 +2,7 @@
 
 An itsybitsy *norns* thing to have the random sound of the day from Freesound for inspiration in the samples folder.
 
-![Photo of sound waveform on norns screen](actionshot.jpg)
+![Photo of sound waveform on norns screen](actionshot.gif)
 
 ![Screenshot of an Freesound sample](screenshot.png)
 
