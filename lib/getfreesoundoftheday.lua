@@ -1,7 +1,6 @@
 #!/usr/bin/lua
 
-local LUA_VERSION  = _VERSION:match("%d+%.%d+")
-package.path       = "share/lua/"..LUA_VERSION.."/?.lua;"..package.path
+package.path       = "lib/?.lua;"..package.path
 local io           = require 'io'
 local lfs          = require 'lfs'
 local lunajson     = require 'lunajson'

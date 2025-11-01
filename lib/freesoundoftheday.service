@@ -8,7 +8,7 @@ Type=oneshot
 Nice=-19
 User=we
 WorkingDirectory=/home/we/dust/code/freesoundoftheday
-ExecStart=/home/we/dust/code/freesoundoftheday/bin/freesoundoftheday.lua
+ExecStart=/home/we/dust/code/freesoundoftheday/lib/getfreesoundoftheday.lua
 
 [Install]
 WantedBy=default.target
